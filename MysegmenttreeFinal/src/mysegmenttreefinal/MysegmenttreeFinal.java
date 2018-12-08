@@ -18,7 +18,7 @@ public class MysegmenttreeFinal {
         // TODO code application logic here
            int test[]={-20,19,7,4,-10,5,100,1,3};//las posiciones van desde el cero
     //este es un arbol de maximos
-       SegmentTree arbol_de_seg=new SegmentTree(false);//poner true si es arbol de maximos y false si es de minimos
+       SegmentTree arbol_de_seg=new SegmentTree(true);//poner true si es arbol de maximos y false si es de minimos
        arbol_de_seg.Initialize(test);
         System.out.println(arbol_de_seg.Solve(2, 5));
          System.out.println(arbol_de_seg.Solve(0, 8));
